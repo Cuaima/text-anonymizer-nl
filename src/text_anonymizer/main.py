@@ -2,7 +2,7 @@ import re
 import spacy
 from typing import List, Dict
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("nl_core_news_lg")
 
 
 def recognize_entities(text: str) -> List[Dict]:
